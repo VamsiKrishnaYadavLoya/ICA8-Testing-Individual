@@ -20,6 +20,7 @@ class urinalsTest {
         String expected=Arrays.toString(a);
         String actual=Arrays.deepToString(urinals.readFile());
         Assertions.assertEquals(expected,actual);
+        system.out.println("VamsiKrishna Test two executed");
     }
 
     @Test
@@ -27,5 +28,6 @@ class urinalsTest {
     {
         int[] Result = {1,2,3,4,5,6,7,8,9,10};
         Assertions.assertEquals(true,urinals.writeFile(Result));
+        system.out.println("VamsiKrishna Test three executed");
     }
 }
