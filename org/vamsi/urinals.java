@@ -1,3 +1,5 @@
+
+package org.vamsi;
 import java.util.*;
 import java.io.*;
 public class urinals {
@@ -42,7 +44,7 @@ public class urinals {
 
     }
     public  static int counter(String ques)
-    {
+
         if(ques.contains("11")) return -1;
         int prev = 0;
         int count = 0;
